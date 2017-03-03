@@ -126,6 +126,10 @@
             'libusb/msvc',
           ],
           'msvs_disabled_warnings': [ 4267 ],
+          'defines':[
+            'HAVE_STRUCT_TIMESPEC=1',
+            '_TIMESPEC_DEFINED=1'
+           ]
         }],
       ],
     },
